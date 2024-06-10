@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sky"
+    tools:context=".View.MainActivity">
+
+    <Button
+        android:id="@+id/geometry"
+        android:layout_width="199dp"
+        android:layout_height="60dp"
+        android:backgroundTint="@color/illuminating_emerald"
+        android:text="@string/geometry"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.348" />
+
+    <Button
+        android:id="@+id/physics"
+        android:layout_width="199dp"
+        android:layout_height="60dp"
+        android:backgroundTint="@color/illuminating_emerald"
+        android:text="@string/physics"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.606" />
+
+    <Button
+        android:id="@+id/prism"
+        android:layout_width="199dp"
+        android:layout_height="60dp"
+        android:backgroundTint="@color/illuminating_emerald"
+        android:text="@string/prism"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.250" />
+
+    <Button
+        android:id="@+id/rectangular_prism"
+        android:layout_width="199dp"
+        android:layout_height="60dp"
+        android:backgroundTint="@color/illuminating_emerald"
+        android:text="@string/rectangular_prism"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.412" />
+
+    <Button
+        android:id="@+id/sphere"
+        android:layout_width="199dp"
+        android:layout_height="60dp"
+        android:backgroundTint="@color/illuminating_emerald"
+        android:text="@string/sphere"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.573" />
+
+    <Button
+        android:id="@+id/cylinder"
+        android:layout_width="199dp"
+        android:layout_height="60dp"
+        android:backgroundTint="@color/illuminating_emerald"
+        android:text="@string/cylinder"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.725" />
+
+    <Button
+        android:id="@+id/speed"
+        android:layout_width="199dp"
+        android:layout_height="60dp"
+        android:backgroundTint="@color/illuminating_emerald"
+        android:text="@string/speed"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.183" />
+
+    <Button
+        android:id="@+id/distance"
+        android:layout_width="199dp"
+        android:layout_height="60dp"
+        android:backgroundTint="@color/illuminating_emerald"
+        android:text="@string/distance"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.345" />
+
+    <Button
+        android:id="@+id/time"
+        android:layout_width="199dp"
+        android:layout_height="60dp"
+        android:backgroundTint="@color/illuminating_emerald"
+        android:text="@string/time"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.506" />
+
+    <Button
+        android:id="@+id/density"
+        android:layout_width="199dp"
+        android:layout_height="60dp"
+        android:backgroundTint="@color/illuminating_emerald"
+        android:text="@string/density"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.657" />
+
+    <Button
+        android:id="@+id/force"
+        android:layout_width="199dp"
+        android:layout_height="60dp"
+        android:backgroundTint="@color/illuminating_emerald"
+        android:text="@string/force"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.813" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
